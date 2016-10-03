@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/simon_front"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/offwhite"
+        android:textSize="50dp"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="384dp"
+        android:src="@drawable/simon"
+        android:padding="10dp"
+        android:id="@+id/simon_logo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Start Game"
+        android:id="@+id/startbutton"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:background="@color/black"
+        android:textColor="@color/offwhite" />
+</LinearLayout>
